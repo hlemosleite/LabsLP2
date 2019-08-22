@@ -18,15 +18,12 @@ public class ContaLaboratorio {
 	
 	public void consomeEspaco(int mbytes) {
 		espaco += mbytes;
-		cota -= espaco;
-		
 	}
 	public void liberaEspaco(int mbytes) {
 		espaco -= mbytes;
-		cota += espaco;
 	}
 	public boolean atingiuCota() {
-		if (espaco == 2000) {
+		if (espaco >= cota) {
 			return true;
 		}
 		return false;
@@ -44,7 +41,7 @@ public class ContaLaboratorio {
 	}
 
 	public String toString() {
-		return nomeLaboratorio + espaco + "/" + cota;
+		return nomeLaboratorio + " " + espaco + "/" + cota;
 	}
 }
 

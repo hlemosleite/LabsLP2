@@ -26,7 +26,7 @@ public class Coisa {
         System.out.println(prog2.aprovado());
         System.out.println(prog2.toString());
 
-        ContaCantina cantinaSeuMatias = new ContaCantina("Seu Matias");            
+/*        ContaCantina cantinaSeuMatias = new ContaCantina("Seu Matias");            
 
         cantinaSeuMatias.cadastraLanche(2, 500);
         cantinaSeuMatias.cadastraLanche(1, 500);
@@ -47,6 +47,6 @@ public class Coisa {
         saude.defineSaudeMental("boa");
         saude.defineSaudeFisica("fraca");
         System.out.println(saude.getStatusGeral());
-
-	}  
+        */
+	}
 }
